@@ -6,6 +6,28 @@ h1 {
     margin-top: 0;
 }
 
-div {
+.top-container {
     background-color: #e4f9f5;
 }
+
+.box-one {
+    color: red;
+    border: solid 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.box-two {
+    color: green;
+    border: solid 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.box-three {
+    color: blue;
+    border: solid 20px;
+    width: 100px;
+    height: 100px;
+}
+
