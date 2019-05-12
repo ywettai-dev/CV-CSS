@@ -4,9 +4,11 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+/* Noted that 16px = 100% = 1em(M) */
+
 h1 {
+    font-size: 5.625em;
     margin-top: 0;
-    font-size: 55px;
     font-family: 'Sacramento', cursive;
 }
 
@@ -22,16 +24,29 @@ h3 {
     text-decoration: underline;
 }
 
+/* Start top container components */
 .top-container {
-    background-color: #e4f9f5;
+    background-color: #EAF6F6;
     position: relative;
-    padding-top: 260px;
+    padding-top: 180px;
 }
 
-.top-cloud {
+.top-cloud-one {
     position: absolute;
-    top: 80px;
-    right: 300px;
+    top: 50px;
+    right: 200px;
+}
+
+.top-cloud-two {
+    position: absolute;
+    top: 400px;
+    right: 100px;
+}
+
+.top-cloud-three {
+    position: absolute;
+    top: 200px;
+    left: 100px;
 }
 
 .bottom-cloud {
@@ -39,3 +54,27 @@ h3 {
     bottom: 250px; 
     left: 250px;
 }
+/* End top container components */
+
+/* Start middle container components */
+.middle-container {
+    margin-top: 0px;
+    background-color: #f7f7f7;
+}
+
+.cv-pp {
+    width: 200px;
+    height: 200px;
+}
+
+.programming-vector, .camera-vector, .report-vector{
+    width: 100px;
+    height: 100px;
+}
+/* End middle container components */
+
+/* Start bottom container components */
+.bottom-container {
+    background-color: #f7f7f7;
+}
+/* End bottom container components */
